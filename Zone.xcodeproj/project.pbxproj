@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04E209F2DB4480300F12A48 /* Zone Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B04E209E2DB4480300F12A48 /* Zone Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04E20892DB4480300F12A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04E20732DB4480100F12A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E207A2DB4480100F12A48;
+			remoteInfo = Zone;
+		};
+		B04E20932DB4480300F12A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04E20732DB4480100F12A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E207A2DB4480100F12A48;
+			remoteInfo = Zone;
+		};
+		B04E20A02DB4480300F12A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04E20732DB4480100F12A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E209D2DB4480300F12A48;
+			remoteInfo = "Zone Watch App";
+		};
+		B04E20AE2DB4480400F12A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04E20732DB4480100F12A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E209D2DB4480300F12A48;
+			remoteInfo = "Zone Watch App";
+		};
+		B04E20B82DB4480400F12A48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04E20732DB4480100F12A48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E209D2DB4480300F12A48;
+			remoteInfo = "Zone Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B04E20C42DB4480400F12A48 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B04E209F2DB4480300F12A48 /* Zone Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B04E207B2DB4480100F12A48 /* Zone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E20882DB4480300F12A48 /* ZoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E20922DB4480300F12A48 /* ZoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E209E2DB4480300F12A48 /* Zone Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zone Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E20AD2DB4480400F12A48 /* Zone Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zone Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E20B72DB4480400F12A48 /* Zone Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zone Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B04E207D2DB4480100F12A48 /* Zone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Zone;
+			sourceTree = "<group>";
+		};
+		B04E208B2DB4480300F12A48 /* ZoneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZoneTests;
+			sourceTree = "<group>";
+		};
+		B04E20952DB4480300F12A48 /* ZoneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZoneUITests;
+			sourceTree = "<group>";
+		};
+		B04E20A22DB4480300F12A48 /* Zone Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Zone Watch App";
+			sourceTree = "<group>";
+		};
+		B04E20B02DB4480400F12A48 /* Zone Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Zone Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B04E20BA2DB4480400F12A48 /* Zone Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Zone Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04E20782DB4480100F12A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20852DB4480300F12A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E208F2DB4480300F12A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E209B2DB4480300F12A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20AA2DB4480400F12A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20B42DB4480400F12A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04E20722DB4480100F12A48 = {
+			isa = PBXGroup;
+			children = (
+				B04E20D62DB4493C00F12A48 /* ZoneBase */,
+				B04E207D2DB4480100F12A48 /* Zone */,
+				B04E208B2DB4480300F12A48 /* ZoneTests */,
+				B04E20952DB4480300F12A48 /* ZoneUITests */,
+				B04E20A22DB4480300F12A48 /* Zone Watch App */,
+				B04E20B02DB4480400F12A48 /* Zone Watch AppTests */,
+				B04E20BA2DB4480400F12A48 /* Zone Watch AppUITests */,
+				B04E207C2DB4480100F12A48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04E207C2DB4480100F12A48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04E207B2DB4480100F12A48 /* Zone.app */,
+				B04E20882DB4480300F12A48 /* ZoneTests.xctest */,
+				B04E20922DB4480300F12A48 /* ZoneUITests.xctest */,
+				B04E209E2DB4480300F12A48 /* Zone Watch App.app */,
+				B04E20AD2DB4480400F12A48 /* Zone Watch AppTests.xctest */,
+				B04E20B72DB4480400F12A48 /* Zone Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04E20D62DB4493C00F12A48 /* ZoneBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZoneBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04E207A2DB4480100F12A48 /* Zone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E20C52DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone" */;
+			buildPhases = (
+				B04E20772DB4480100F12A48 /* Sources */,
+				B04E20782DB4480100F12A48 /* Frameworks */,
+				B04E20792DB4480100F12A48 /* Resources */,
+				B04E20C42DB4480400F12A48 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04E20A12DB4480300F12A48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B04E207D2DB4480100F12A48 /* Zone */,
+			);
+			name = Zone;
+			packageProductDependencies = (
+			);
+			productName = Zone;
+			productReference = B04E207B2DB4480100F12A48 /* Zone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04E20872DB4480300F12A48 /* ZoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E20C82DB4480400F12A48 /* Build configuration list for PBXNativeTarget "ZoneTests" */;
+			buildPhases = (
+				B04E20842DB4480300F12A48 /* Sources */,
+				B04E20852DB4480300F12A48 /* Frameworks */,
+				B04E20862DB4480300F12A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04E208A2DB4480300F12A48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B04E208B2DB4480300F12A48 /* ZoneTests */,
+			);
+			name = ZoneTests;
+			packageProductDependencies = (
+			);
+			productName = ZoneTests;
+			productReference = B04E20882DB4480300F12A48 /* ZoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04E20912DB4480300F12A48 /* ZoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E20CB2DB4480400F12A48 /* Build configuration list for PBXNativeTarget "ZoneUITests" */;
+			buildPhases = (
+				B04E208E2DB4480300F12A48 /* Sources */,
+				B04E208F2DB4480300F12A48 /* Frameworks */,
+				B04E20902DB4480300F12A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04E20942DB4480300F12A48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B04E20952DB4480300F12A48 /* ZoneUITests */,
+			);
+			name = ZoneUITests;
+			packageProductDependencies = (
+			);
+			productName = ZoneUITests;
+			productReference = B04E20922DB4480300F12A48 /* ZoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B04E209D2DB4480300F12A48 /* Zone Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E20C12DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone Watch App" */;
+			buildPhases = (
+				B04E209A2DB4480300F12A48 /* Sources */,
+				B04E209B2DB4480300F12A48 /* Frameworks */,
+				B04E209C2DB4480300F12A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B04E20A22DB4480300F12A48 /* Zone Watch App */,
+			);
+			name = "Zone Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Zone Watch App";
+			productReference = B04E209E2DB4480300F12A48 /* Zone Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04E20AC2DB4480400F12A48 /* Zone Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E20CE2DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone Watch AppTests" */;
+			buildPhases = (
+				B04E20A92DB4480400F12A48 /* Sources */,
+				B04E20AA2DB4480400F12A48 /* Frameworks */,
+				B04E20AB2DB4480400F12A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04E20AF2DB4480400F12A48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B04E20B02DB4480400F12A48 /* Zone Watch AppTests */,
+			);
+			name = "Zone Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Zone Watch AppTests";
+			productReference = B04E20AD2DB4480400F12A48 /* Zone Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04E20B62DB4480400F12A48 /* Zone Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E20D12DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone Watch AppUITests" */;
+			buildPhases = (
+				B04E20B32DB4480400F12A48 /* Sources */,
+				B04E20B42DB4480400F12A48 /* Frameworks */,
+				B04E20B52DB4480400F12A48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04E20B92DB4480400F12A48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B04E20BA2DB4480400F12A48 /* Zone Watch AppUITests */,
+			);
+			name = "Zone Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Zone Watch AppUITests";
+			productReference = B04E20B72DB4480400F12A48 /* Zone Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04E20732DB4480100F12A48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					B04E207A2DB4480100F12A48 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B04E20872DB4480300F12A48 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B04E207A2DB4480100F12A48;
+					};
+					B04E20912DB4480300F12A48 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B04E207A2DB4480100F12A48;
+					};
+					B04E209D2DB4480300F12A48 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					B04E20AC2DB4480400F12A48 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B04E209D2DB4480300F12A48;
+					};
+					B04E20B62DB4480400F12A48 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = B04E209D2DB4480300F12A48;
+					};
+				};
+			};
+			buildConfigurationList = B04E20762DB4480100F12A48 /* Build configuration list for PBXProject "Zone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04E20722DB4480100F12A48;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B04E207C2DB4480100F12A48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04E207A2DB4480100F12A48 /* Zone */,
+				B04E20872DB4480300F12A48 /* ZoneTests */,
+				B04E20912DB4480300F12A48 /* ZoneUITests */,
+				B04E209D2DB4480300F12A48 /* Zone Watch App */,
+				B04E20AC2DB4480400F12A48 /* Zone Watch AppTests */,
+				B04E20B62DB4480400F12A48 /* Zone Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04E20792DB4480100F12A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20862DB4480300F12A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20902DB4480300F12A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E209C2DB4480300F12A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20AB2DB4480400F12A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20B52DB4480400F12A48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04E20772DB4480100F12A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20842DB4480300F12A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E208E2DB4480300F12A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E209A2DB4480300F12A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20A92DB4480400F12A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E20B32DB4480400F12A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04E208A2DB4480300F12A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04E207A2DB4480100F12A48 /* Zone */;
+			targetProxy = B04E20892DB4480300F12A48 /* PBXContainerItemProxy */;
+		};
+		B04E20942DB4480300F12A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04E207A2DB4480100F12A48 /* Zone */;
+			targetProxy = B04E20932DB4480300F12A48 /* PBXContainerItemProxy */;
+		};
+		B04E20A12DB4480300F12A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04E209D2DB4480300F12A48 /* Zone Watch App */;
+			targetProxy = B04E20A02DB4480300F12A48 /* PBXContainerItemProxy */;
+		};
+		B04E20AF2DB4480400F12A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04E209D2DB4480300F12A48 /* Zone Watch App */;
+			targetProxy = B04E20AE2DB4480400F12A48 /* PBXContainerItemProxy */;
+		};
+		B04E20B92DB4480400F12A48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04E209D2DB4480300F12A48 /* Zone Watch App */;
+			targetProxy = B04E20B82DB4480400F12A48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B04E20BF2DB4480400F12A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B04E20C02DB4480400F12A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B04E20C22DB4480400F12A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zone;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.github.alexisponce98.Zone;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.Zone.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		B04E20C32DB4480400F12A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zone;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.github.alexisponce98.Zone;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.Zone.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		B04E20C62DB4480400F12A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zone;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.Zone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B04E20C72DB4480400F12A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zone;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.Zone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04E20C92DB4480400F12A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.ZoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zone";
+			};
+			name = Debug;
+		};
+		B04E20CA2DB4480400F12A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.ZoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04E20CC2DB4480400F12A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.ZoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zone;
+			};
+			name = Debug;
+		};
+		B04E20CD2DB4480400F12A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.alexisponce98.ZoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zone;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04E20CF2DB4480400F12A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.alexisponce98.Zone-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zone Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zone Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		B04E20D02DB4480400F12A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.alexisponce98.Zone-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zone Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zone Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		B04E20D22DB4480400F12A48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.alexisponce98.Zone-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zone Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		B04E20D32DB4480400F12A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMK3Q3VT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.alexisponce98.Zone-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Zone Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04E20762DB4480100F12A48 /* Build configuration list for PBXProject "Zone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E20BF2DB4480400F12A48 /* Debug */,
+				B04E20C02DB4480400F12A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E20C12DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E20C22DB4480400F12A48 /* Debug */,
+				B04E20C32DB4480400F12A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E20C52DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E20C62DB4480400F12A48 /* Debug */,
+				B04E20C72DB4480400F12A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E20C82DB4480400F12A48 /* Build configuration list for PBXNativeTarget "ZoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E20C92DB4480400F12A48 /* Debug */,
+				B04E20CA2DB4480400F12A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E20CB2DB4480400F12A48 /* Build configuration list for PBXNativeTarget "ZoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E20CC2DB4480400F12A48 /* Debug */,
+				B04E20CD2DB4480400F12A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E20CE2DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E20CF2DB4480400F12A48 /* Debug */,
+				B04E20D02DB4480400F12A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E20D12DB4480400F12A48 /* Build configuration list for PBXNativeTarget "Zone Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E20D22DB4480400F12A48 /* Debug */,
+				B04E20D32DB4480400F12A48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B04E20732DB4480100F12A48 /* Project object */;
+}
