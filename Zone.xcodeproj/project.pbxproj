@@ -153,7 +153,6 @@
 		B04E20722DB4480100F12A48 = {
 			isa = PBXGroup;
 			children = (
-				B04E20D62DB4493C00F12A48 /* ZoneBase */,
 				B04E207D2DB4480100F12A48 /* Zone */,
 				B04E208B2DB4480300F12A48 /* ZoneTests */,
 				B04E20952DB4480300F12A48 /* ZoneUITests */,
@@ -175,13 +174,6 @@
 				B04E20B72DB4480400F12A48 /* Zone Watch AppUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B04E20D62DB4493C00F12A48 /* ZoneBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ZoneBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -688,6 +680,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Zone;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Location for accurate readings";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -719,6 +712,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Zone;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Location for accurate readings";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

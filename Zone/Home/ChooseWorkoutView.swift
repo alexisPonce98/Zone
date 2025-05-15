@@ -18,7 +18,7 @@ struct ChooseWorkoutView: View {
         NavigationStack {
             List {
                 ForEach(items) { item in
-                    NavigationLink(destination: DetailView(item: item)) {
+                    NavigationLink(destination: MapWithRecordButton(item: item)) {
                         WorktoutOptionView(item: item)
                     }
                 }
@@ -43,17 +43,4 @@ struct HomeRowItem: Identifiable {
     let id = UUID()
     let icon: String
     let title: String
-}
-
-struct DetailView: View {
-    let item: HomeRowItem
-
-    var body: some View {
-        VStack {
-            Text("\(item.title) Detail")
-                .font(.largeTitle)
-                .padding()
-        }
-        .navigationTitle(item.title)
-    }
 }
