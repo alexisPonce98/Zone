@@ -18,7 +18,7 @@ struct ChooseWorkoutView: View {
         NavigationStack {
             List {
                 ForEach(items) { item in
-                    NavigationLink(destination: MapWithRecordButton(item: item)) {
+                    NavigationLink(destination: WorkoutView(item: item)) {
                         WorktoutOptionView(item: item)
                     }
                 }

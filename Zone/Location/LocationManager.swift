@@ -7,8 +7,11 @@
 
 import Foundation
 import CoreLocation
+import MapKit
 
 final class LocationManager: NSObject, ObservableObject {
+    @Published var isRecording = false
+    @Published var path: [MKMapPoint] = []
     @Published var location: CLLocation?
 
     private let manager = CLLocationManager()
@@ -16,6 +19,7 @@ final class LocationManager: NSObject, ObservableObject {
     override init() {
         super.init()
         manager.delegate = self
+        manager.activityType = .fitness
         manager.desiredAccuracy = kCLLocationAccuracyBest
     }
 
@@ -49,5 +53,10 @@ extension LocationManager: CLLocationManagerDelegate {
     ) {
         // grab the most recent
         location = locations.last
+        guard isRecording else { return }
+            // Append new points to the path
+            for loc in locations {
+                path.append(MKMapPoint(loc.coordinate))
+        }
     }
 }
